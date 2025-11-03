@@ -1,41 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>RobloxAsset</title>
+    <title>Asset Downloader</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="scripts/css/style.css">
     <link rel="stylesheet" type="text/css" href="scripts/css/fonts.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/js/jquery-3.2.1.min.js"></script>
-    <script src="scripts/js/main.js"></script>
-    <meta name="description"
-        content="Download Roblox shirts, models & other assets to use directly in your game, or for other use.">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="manifest" href="manifest.json">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Asset Downloader">
+    <link rel="apple-touch-icon" href="images/icon-192.png"> <meta name="description"
+        content="Download shirts, models, sounds, and other assets.">
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="canonical" href="https://robloxasset.tk/">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="RobloxAsset - Roblox Asset Downloader">
+    <meta property="og:title" content="Asset Downloader">
     <meta property="og:description"
-        content="Download Roblox shirts, models & other assets to use directly in your game, or for other use.">
-    <meta property="og:url" content="https://robloxasset.tk/">
-    <meta property="og:site_name" content="RobloxAsset">
-    <meta property="og:image" content="https://robloxasset.tk/images/robloxasset.jpg">
-    <meta property="og:image:secure_url" content="https://robloxasset.tk/images/robloxasset.jpg">
-    <meta property="og:image:width" content="560">
-    <meta property="og:image:height" content="340">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description"
-        content="Download Roblox shirts, models & other assets to use directly in your game, or for other use.">
-    <meta name="twitter:title" content="RobloxAsset - Roblox Asset Downloader">
-    <meta name="twitter:image" content="https://robloxasset.tk/images/robloxasset.jpg">
+        content="Download shirts, models, sounds, and other assets.">
+    <meta property="og:site_name" content="Asset Downloader">
+
+    <script src="scripts/js/jquery-3.2.1.min.js"></script>
+    <script src="scripts/js/main.js"></script>
 </head>
 
 <body>
     <div id="mainWrapper">
-        <h1 class="mainHeader">Roblox<span>Asset</span></h1>
-        <div id="formWrapper">
+        <header>
+            <h1 class="mainHeader">Asset Downloader</h1>
+        </header>
+        
+        <main id="formWrapper">
             <div id="form">
-                <input autocomplete="off" type="text" id="assetURL" name="url" placeholder="Enter Roblox Asset URL...">
+                <input autocomplete="off" type="text" id="assetURL" name="url" placeholder="Enter Asset URL...">
                 <select id="assetType" name="type">
                     <option value="placeholder">Select Asset Type</option>
                     <option value="accessory">Accessory</option>
@@ -46,15 +46,34 @@
                     <option value="mesh">Mesh</option>
                     <option value="plugin">Plugin</option>
                 </select>
-                <p id="exampleText">Example URL: <span
-                        class="example">https://www.roblox.com/library/4951534350/Astronomia</span></p>
+                <p id="exampleText">Example: <span
+                        class="example">https://www.roblox.com/library/...</span></p>
                 <input id="submitAsset" type="submit" value="Download Asset">
+                
                 <h2 id="loadMsg">Downloading...</h2>
                 <p id="errorMsg">placeholder</p>
             </div>
-        </div>
+        </main>
+        
+        <footer>
+            <p>Total Downloads: <span id="totalDownloads"></span></p>
+        </footer>
     </div>
-    <p class="footer">Total Downloads: <span id="totalDownloads"></span> | Created by Nanoo</p>
+
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
+    </script>
 </body>
 
 </html>
