@@ -1,1 +1,330 @@
-var _0x2307=['w73Dp8ONN8Og','wpTCjMKewq58w4XCpsOrw790wrZaw5JzbDvDl1EVw4DDnFd9S8K1CcKF','K1vCtsKdc8KCwrQmHw==','woZtWcOY','woI5CQ==','AsOUFEgdwo4lwrMhwqtww7laE8K+VA==','NMOywqY+','wrPCgMKq','ecO/VgA=','wq3CgMKvSCfDtQwhw7DCmQ==','wr/CqSnDgMKHw7PCjsK2wqDCjyU=','IFrCqsKcZMKkw7w9BMONw5YC','XgzDvljCksOqwrbDtsKk','wqrDkcOaEmbCisOjAA==','wrYOPg==','ScOXw6nCrW3DnEVqwrjCtsKAw4LCpVkvScKnFcKSe1EtEcKXw5vDrcOzWcOvZBvCr8KwYnpjwpbDpsKlw5F9DMO/wpIAT8KAw5fCpcKmO3s+TWHCjj3Ci8KGw79MMUIiw6AXb2Rb','Ng9owrw=','wrQLUTIow7xOwpgefsOEfg==','JxNrwrfCpg==','wr8BQg==','OQZ0wrY=','JcOfwpXDi1xrwqFzwpfDnsKmw6ARLzrDlgRvwqV+','aBpQw5s3dcOcaw==','w7HDu8ORPcOgw5Ake3Y=','S8OhLTk=','w4ojwoxvOcKLBxRXw6rDnynDvEsQBwXDikHCk8OGwqoew4fCug==','w5R4w63CtMKawqbCk8K9McKTWQ==','w6vDksOHF2fCtcK9BMOYIwxr','AcOWw5oVw5oc','O8Kjw6kgWcKMw6gWwpcx','BFQ8KMOGwodTfsKb','w5d8w6PCoA==','w7rDjcOZGnY=','w6LCn8KIwq14w4PCu8O8w6gxw48=','HcKQRA==','woxew6ZeHgPDm8KjwoA=','S8OBFBIDw4fCmcO/wqRFw6Jbw7srUcKNwqg3aEQEw7LDuEEcVA==','KRlNw542SsKCb1w6In8=','B8OECU4=','fMOLDRg=','w7Qpwp8=','w4Z7w77Cs8KawrzDkcKyOsKaRMKu','w7QdwpzDvQTDosO3AcKQIR4Yw7XDi8Kzf2UNAw==','AgzCoV9/w6rCpsK+w40=','EhrCp0h1w4rCrMKgw5EjJMKow5PDhycA','IcOHFxkCwoXClsO6wqBOwqgYw5U2VsKJwrV3IxgEwrLDuA==','HMOPA18Fwrk5wqwwwqlww7NLOsKzVsOxwqo=','w7HCn8KjQw==','w7kSwobDuVvDm8O3HcKN','w6wuwp1z','wrbCgcKpQTDDgkQ=','ZsOgwpEc','JgZmwrrCqw==','wofCsjrDk8KSw4nCj8O6wpDCvh0Rw4nCj2kV','V8O8QAtwwr/DpwzDmkzDl8KCb0BmE1jClsOIDmnCn8KUHMK6I8KKdQ==','w7krFRU=','O8O4wpAM','clIzwpANPFsINcKhejnCghEcwroIXQTCnwvDnn/Dly7Dl8KPw4cCw5JSG8KRCzU1wqbDtzo=','Y8O8w7RkEMKzw6M=','UMKKQ8KfwrMZW8K+wpnCn8OFYMK0w6sOw4DCqMOsP8ObwqFZw7M=','w500wopyIsOU','YMODw4I=','F8OKZg==','KMOuwrcgAcK8w77ClnBnWsK0wr17ZzrDucKWVUR/woPCtifDtjQFw51gw5F8ZifCgMKuWw==','w58MwpzDtUbDocOhRcKOJRgVwqDDiMK+JjAMH2hNwpnCl2PDk8Kk','TsOdEBkbwojCrcOJwoELw7Iaw4l4TMKHwqg5NRpBwrnCowhGGEk=','O8O/wooVw4Y=','ZsOUwpF/wqfCvz8=','wrsQeznClMKawq8Zw5MHwojCiA==','w68UezrCnsKAwqgFw7cHw40=','BFA9KcOMwoFLX8Kw','wqzCn8KhTTw=','JB7CqhrCuDhjHnM=','w4tIAxVbYQDCrA==','AB3Cp1t4w7zChsKuw54lM8Kzw7TDlAc=','eVU0','ehFlwqbCvw==','wrXCsnDCrMOYI8KdwoNNwpo=','w7/DnMOZ','w65Iw6dJBVHDg8KCwqs6CXvCpcKGOjzCnVDDucOYKzQRJnEfPg==','UsOTw7HCtGo=','wqrDnMOGAGfCs8OFNcO7','w6kmExoX','w416w6LCssKNwprCmcKpIQ==','KBpQw447UcOBaw==','ZcOqRy9ww6vDgRzDiFzCg8KQ','NXYbLgwswqPCuw==','wroASxYuw5xZwokI','wrzCjsK5RyA=','wpFveA==','dMKtw70=','YMOeBhI=','DDNr','OVUywoITbwBmJ8KhbCg=','H8OoYRBI','C8Kawq8bOsKNcsKtLko7WVVLSCdoRsKpQcOzChk=','wo7CuWfCqcONGcKNw4Jswq0h','I8K9wrhvbi5h','w6TCtmLCu8OEBMK9wptJwpo=','BFN4b8OBw4Y0','w6lzWsKOw7fCv8OCwrfDnsO4OjfCp31DO8KPwrwVwo9mE8KdUMOFwrYvbg==','e8OLGwhAw5DClcO3','wrsnwotuNcKaJC91','DMKTYXvCuMOEEsOew45zw6NRIcOdLn1WBMOt','NcOOQB1hw6vDpx3Dn0TClcKbb1oqXRnCr8KNGXDCm8KnGcK9M8KKY052woYT','wqzCisKPwq5uwo3DoMKqw7knwoFQw5F5ZTjDn0NewpzCi1knF8O4VsODwo3DisOuThzDjhzDviQDwovDqCHCrGsKw4nDlz4=','U10qNQ==','aBdMw4k2TMO7dUMz','PsOxwpM=','w7AIEkc+wr0O','C8KTU8KbwqpR','U8OGw67CrXHCiBkgwoLCssKWw5k=','YQ/DtQ==','FMOtbBY=','A8Ofw44Ww4ohMg/Dqio=','wotWCRVLSTbCpw3DncK8URk=','YsOBBxkD','wrsHQRY=','VcKSwqkNMsOmbsKjLnxiSFNLWw==','D8OsZwQ=','AnLDhcO1w4/DsDR5w4rCgcKvw6s=','PnMQPw==','FRnDuVvChMKkw4zCi8KGwrzCrsKGwpt0wqEuFcKZwplaw4IMWEVaJRjDv8Kpw57DscO8w4/Drh/CiH0AesKZE2FrdW08OsKrHF/DrVlLwpRtQzjDt1YXWsKDazg+wpEZwoTDtyzCiXUeasKFwprDmcOLwo7Ck8O+wqw=','K8OUwo/Dq0JGwphbwrU=','w6fCncKYwr0=','PcOiwpM=','w5XCpizDksKOw67CvsOvwoXCuA==','FsOfw5szw4cGNAfDvDrCjXE=','BnrClsK9','GsOPH18Wwoklwqcw','In8MLkstwrnCscKi','DBjDqFnCjsONwobDiMKNwr7CtMKGwoZGwqgw','wpFwYgbChg==','w6USwobDvUTDqsO2S8KJLg0=','wqMCRBA5w6BTwp0YbsOC','wqEHbS8=','MnUDNAgqwqzCuA==','woovwrw=','w4FuTcKOw7vDkMOw','wot0RsKfw6LDs8OSwqHDmcOzdi/Cp2oQ','JnsGKQEDwr/Cs8Kjw4jCsRA6Qnw=','wrwAVxY9w6xFwoIIasOEfhTDvS8Ee8Kj','w6YdLlRkDSDCgVY=','w7Jhwrw=','GsKTdHnCu8OTMsOJw5R4w7BRFsKfcygMGMO3Ti4tdcKvw5Nd','PBdzwq7CoUfDgcKgYFliw6LDvmrCgsOXD37ClsO5exjCrcOkw6VgIcOOw57CtcO4wr4Fw7RTEA==','bsOuwqslH8Okwr/DmHpkBcK0w6B7Z2PDp8KTVw==','wrXCi8Kewqxkw6TCqsOpw703woZaw5dcbDg=','a8Knw7Q3','dMONw5x8w7DDqETDsMOZwqYEaQ==','wooMKU5uFwbDs23DuCROwoTDtEDCqwfCgXZMw5bDsTfClcKzNw==','cMK2w64jT8OCwpNAwok1I0vCrw84w53CusOuKMO5W8OIAsOCwr7CusO1GMKqw7ZlVsOAwpXCqDpVMXJqbncxL0MTWm1XwprDoMOtw6giw64MO8KWbDsFfcOyw4TCocKefzokU8OmEy9Xw6LCqsKNw512wqPCkcKX','wrcZLlduFwbCtk7DuC5f','ZnAM','SsOcERMdwpLDmA==','Ngx1wrrCtw/Dg8OsbFp/w6M=','w7ANRhA=','dcORw50='];(function(_0x4588c3,_0x2307a3){var _0x53e58c=function(_0x1c6bab){while(--_0x1c6bab){_0x4588c3['push'](_0x4588c3['shift']());}};_0x53e58c(++_0x2307a3);}(_0x2307,0x188));var _0x53e5=function(_0x4588c3,_0x2307a3){_0x4588c3=_0x4588c3-0x0;var _0x53e58c=_0x2307[_0x4588c3];if(_0x53e5['RYAfqA']===undefined){(function(){var _0x46f511=function(){var _0xd02233;try{_0xd02233=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x571dd4){_0xd02233=window;}return _0xd02233;};var _0x40d42b=_0x46f511();var _0x2017a7='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x40d42b['atob']||(_0x40d42b['atob']=function(_0x152d2a){var _0x1cf148=String(_0x152d2a)['replace'](/=+$/,'');var _0x173ce5='';for(var _0x5abb6d=0x0,_0x12a4d1,_0x355641,_0x3de268=0x0;_0x355641=_0x1cf148['charAt'](_0x3de268++);~_0x355641&&(_0x12a4d1=_0x5abb6d%0x4?_0x12a4d1*0x40+_0x355641:_0x355641,_0x5abb6d++%0x4)?_0x173ce5+=String['fromCharCode'](0xff&_0x12a4d1>>(-0x2*_0x5abb6d&0x6)):0x0){_0x355641=_0x2017a7['indexOf'](_0x355641);}return _0x173ce5;});}());var _0x55b349=function(_0x21733a,_0x545363){var _0x3631f8=[],_0x617664=0x0,_0x436712,_0x11993a='',_0x5ed9ed='';_0x21733a=atob(_0x21733a);for(var _0x3c83c7=0x0,_0x29f5d8=_0x21733a['length'];_0x3c83c7<_0x29f5d8;_0x3c83c7++){_0x5ed9ed+='%'+('00'+_0x21733a['charCodeAt'](_0x3c83c7)['toString'](0x10))['slice'](-0x2);}_0x21733a=decodeURIComponent(_0x5ed9ed);var _0x1b8c13;for(_0x1b8c13=0x0;_0x1b8c13<0x100;_0x1b8c13++){_0x3631f8[_0x1b8c13]=_0x1b8c13;}for(_0x1b8c13=0x0;_0x1b8c13<0x100;_0x1b8c13++){_0x617664=(_0x617664+_0x3631f8[_0x1b8c13]+_0x545363['charCodeAt'](_0x1b8c13%_0x545363['length']))%0x100;_0x436712=_0x3631f8[_0x1b8c13];_0x3631f8[_0x1b8c13]=_0x3631f8[_0x617664];_0x3631f8[_0x617664]=_0x436712;}_0x1b8c13=0x0;_0x617664=0x0;for(var _0x2b90c6=0x0;_0x2b90c6<_0x21733a['length'];_0x2b90c6++){_0x1b8c13=(_0x1b8c13+0x1)%0x100;_0x617664=(_0x617664+_0x3631f8[_0x1b8c13])%0x100;_0x436712=_0x3631f8[_0x1b8c13];_0x3631f8[_0x1b8c13]=_0x3631f8[_0x617664];_0x3631f8[_0x617664]=_0x436712;_0x11993a+=String['fromCharCode'](_0x21733a['charCodeAt'](_0x2b90c6)^_0x3631f8[(_0x3631f8[_0x1b8c13]+_0x3631f8[_0x617664])%0x100]);}return _0x11993a;};_0x53e5['zxezPh']=_0x55b349;_0x53e5['lBsJmv']={};_0x53e5['RYAfqA']=!![];}var _0x1c6bab=_0x53e5['lBsJmv'][_0x4588c3];if(_0x1c6bab===undefined){if(_0x53e5['GKFFpi']===undefined){_0x53e5['GKFFpi']=!![];}_0x53e58c=_0x53e5['zxezPh'](_0x53e58c,_0x2307a3);_0x53e5['lBsJmv'][_0x4588c3]=_0x53e58c;}else{_0x53e58c=_0x1c6bab;}return _0x53e58c;};console[_0x53e5('0xe','7DP)')](_0x53e5('0x1b','u)Gs'));$(document)[_0x53e5('0x86','0104')](function(){$(_0x53e5('0x11','fUiI'))[_0x53e5('0x38','#Z7@')](function(){processOptions();});updateDownloadAmount();_0x3fc4b2();function _0x3fc4b2(){setTimeout(function(){updateDownloadAmount();_0x3fc4b2();},0x1388);}});var originalURL;function processOptions(){var _0x225f99=$(_0x53e5('0x70','[ouv'))[_0x53e5('0x8f','IS9Q')]();var _0x2a3c73=$(_0x53e5('0x6f','7DP)'))[_0x53e5('0x2','DJxO')]();originalURL=$(_0x53e5('0x70','[ouv'))[_0x53e5('0x20','2Fu%')]();hideError();$(_0x53e5('0x42',']IGN'))[_0x53e5('0x4d','xUgG')](_0x53e5('0x49','IS9Q'),_0x53e5('0x30','pZzd'));$(_0x53e5('0x32','^#pK'))[_0x53e5('0xd','#Z7@')](_0x53e5('0x4f','0104'),_0x53e5('0x50','7cm%'));if(_0x225f99==''&&_0x2a3c73==_0x53e5('0x6c','T0B(')){$(_0x53e5('0x1a','UoGB'))[_0x53e5('0x51','IS9Q')](_0x53e5('0x49','IS9Q'),_0x53e5('0x8c','rXul'));$(_0x53e5('0x16','!^hZ'))[_0x53e5('0x74','s6Gf')](_0x53e5('0x5d','TlV)'),_0x53e5('0x21','7cm%'));showError(_0x53e5('0x92','#Gwb'));throw new Error(_0x53e5('0x4a',']IGN'));}if(_0x225f99==''){$(_0x53e5('0x5e','G)]x'))[_0x53e5('0x90','2Z9M')](_0x53e5('0x6d','DJxO'),_0x53e5('0x15','(U#Z'));showError(_0x53e5('0x93','vb&E'));throw new Error(_0x53e5('0x3','^lN1'));}if(_0x2a3c73==_0x53e5('0x3a','7cm%')){$(_0x53e5('0x1f','sGVX'))[_0x53e5('0x9d','fUiI')](_0x53e5('0x77','sGVX'),_0x53e5('0x95','s6ro'));showError(_0x53e5('0x88','A]ot'));throw new Error(_0x53e5('0x18','aDDa'));}if(_0x225f99[_0x53e5('0x3e','aDDa')](_0x53e5('0x5b','K9sk'))==-0x1){$(_0x53e5('0x5','DJxO'))[_0x53e5('0x43','OqhH')](_0x53e5('0x7b','T0B('),_0x53e5('0x17','[ouv'));showError(_0x53e5('0x5c','^#pK'));throw new Error(_0x53e5('0x14','!^hZ'));}if(_0x2a3c73==_0x53e5('0xa','z)ir')){fetchContents(_0x53e5('0x8b','fUiI')+_0x225f99[_0x53e5('0x99','K9sk')]('/')[0x4],_0x2a3c73);}else{fetchContents(_0x225f99,_0x2a3c73);}showLoadMsg(_0x53e5('0x6b','UoGB'));}function fetchContents(_0x56b328,_0xa3b062){var _0x2ef145=_0x53e5('0x45','0104');fetch(_0x2ef145+_0x56b328)[_0x53e5('0x83','UoGB')](_0x4ef901=>_0x4ef901[_0x53e5('0x78','nY14')]())[_0x53e5('0x1e','[ouv')](_0x3f5fa8=>{if(_0xa3b062==_0x53e5('0x8','sGVX')){parseXML(_0x3f5fa8,_0x56b328,_0xa3b062);}else{parseHTML(_0x3f5fa8,_0xa3b062,_0x56b328);}})[_0x53e5('0xc','K9sk')](_0x775b24=>{console[_0x53e5('0x52','&Rvd')](_0x53e5('0x8e','UoGB'),_0x775b24);hideLoadMsg();showError(_0x53e5('0x4e','vb&E')+_0x775b24);});}function parseXML(_0x49a845,_0x573ac7,_0x555a56){console[_0x53e5('0x59','K9sk')](_0x49a845);const _0x623044=new DOMParser();var _0xcdb6c1=_0x623044[_0x53e5('0x40','z)ir')](_0x49a845,_0x53e5('0x19','vb&E'));var _0x437a88=_0xcdb6c1[_0x53e5('0x67','gwOw')](_0x53e5('0x31','2Fu%'))[0x0][_0x53e5('0x2f','gwOw')];changeLoadMsg(_0x53e5('0x76','vb&E'));if(originalURL[_0x53e5('0x64','0104')]('/')[0x5]){download(_0x437a88,originalURL[_0x53e5('0x4','mZPa')]('/')[0x5]+_0x53e5('0x85','2Fu%'),originalURL,_0x555a56);}else{download(_0x437a88,_0x53e5('0x39','#Gwb'),originalURL,_0x555a56);}}function parseHTML(_0x40577e,_0xa080be,_0x554457){const _0x3d3999=new DOMParser();var _0x1765e4=_0x3d3999[_0x53e5('0x2a','LPwx')](_0x40577e,_0x53e5('0x36','z)ir'));var _0xe41d08=[_0x53e5('0x28','vb&E'),_0x53e5('0x66','0104'),_0x53e5('0x6e','Yycs'),_0x53e5('0x7d','8AN1')];if(_0xa080be==_0x53e5('0x94','2Fu%')){var _0x4e4cc7=_0x1765e4[_0x53e5('0x7e','8AN1')](_0x53e5('0x1c','A]ot'))[0x0][_0x53e5('0x33','Yycs')](_0x53e5('0x7c','#Gwb'));var _0x245b9a=_0x1765e4[_0x53e5('0x37','G)]x')](_0x53e5('0x8d','s6Gf'))[0x0][_0x53e5('0x35','nY14')]+_0x53e5('0x55','aDDa');}if(_0xa080be==_0x53e5('0x6','Bqv3')){var _0x4e4cc7=_0x1765e4[_0x53e5('0x57','nY14')](_0x53e5('0x46','rXul'))[0x0][_0x53e5('0x63','7cm%')](_0x53e5('0x60',']IGN'));var _0x245b9a=_0x1765e4[_0x53e5('0x47','pZzd')](_0x53e5('0x13','LPwx'))[0x0][_0x53e5('0x7','T0B(')]+_0x53e5('0x81','K9sk');}if(_0xe41d08[_0x53e5('0x84','K9sk')](_0xa080be)>-0x1){var _0x4e4cc7=_0x53e5('0x1d','pZzd')+_0x554457[_0x53e5('0x72','DJxO')]('/')[0x4];var _0x245b9a=_0x1765e4[_0x53e5('0x87','^#pK')](_0x53e5('0x7f','vb&E'))[0x0][_0x53e5('0xb','7cm%')]+_0x53e5('0x0','0104');}console[_0x53e5('0x24','1]RR')](_0x4e4cc7);console[_0x53e5('0x7a','UoGB')](_0x245b9a);changeLoadMsg(_0x53e5('0x44','u)Gs'));download(_0x4e4cc7,_0x245b9a,originalURL,_0xa080be);}function download(_0x56899c,_0x4618a5,_0x1dd608,_0x4df1fb){var _0x10998f=_0x53e5('0x91','rXul'),_0x15215a=_0x56899c;fetch(_0x10998f+_0x15215a)[_0x53e5('0x89','Bqv3')](function(_0x31499e){return _0x31499e[_0x53e5('0x62','0104')]()[_0x53e5('0x58','rXul')](_0x2e5029=>{let _0x1ffc0f=document[_0x53e5('0x27','PT(k')]('a');_0x1ffc0f[_0x53e5('0x3b','ge8u')]=URL[_0x53e5('0x9c','8AN1')](_0x2e5029);_0x1ffc0f[_0x53e5('0x9','A]ot')](_0x53e5('0x3c','z)ir'),_0x4618a5);_0x1ffc0f[_0x53e5('0x12','$sYY')]();changeLoadMsg(_0x53e5('0x53','pZzd'));submitDownloadAmount(_0x1dd608,_0x4df1fb);setTimeout(function(){hideLoadMsg();},0xbb8);});});}function showError(_0x3e42ae){let _0x15d50b=$(_0x53e5('0x75','^lN1'));_0x15d50b[0x0][_0x53e5('0x54','TlV)')]=_0x3e42ae;_0x15d50b[_0x53e5('0x8a','2Fu%')]();}function hideError(){let _0x2c1cea=$(_0x53e5('0x98','[ouv'));_0x2c1cea[_0x53e5('0x25','$sYY')]();}function showLoadMsg(_0x41ca9c){let _0x526883=$(_0x53e5('0x68','sGVX'));_0x526883[0x0][_0x53e5('0x69','&Rvd')]=_0x41ca9c;_0x526883[_0x53e5('0x2b','$sYY')]();$(_0x53e5('0x2c','tV&L'))[_0x53e5('0x29','7cm%')]();}function hideLoadMsg(){let _0x2ce33f=$(_0x53e5('0x5f','DJxO'));_0x2ce33f[_0x53e5('0x2d','z)ir')]();$(_0x53e5('0x11','fUiI'))[_0x53e5('0x71','T0B(')]();}function changeLoadMsg(_0xf5d6c8){let _0x56241a=$(_0x53e5('0x9b','PT(k'));_0x56241a[0x0][_0x53e5('0x9a','9ng]')]=_0xf5d6c8;}function getDownloadAmount(_0x15fb6e){var _0x1b85f6=new XMLHttpRequest();_0x1b85f6[_0x53e5('0x41','7cm%')]=function(){if(_0x1b85f6[_0x53e5('0x26','Yycs')]==XMLHttpRequest[_0x53e5('0x34','TlV)')]){if(_0x15fb6e){$(_0x53e5('0x3f','aDDa'))[0x0][_0x53e5('0x82','#Gwb')]=_0x1b85f6[_0x53e5('0x23','mZPa')];}}};_0x1b85f6[_0x53e5('0xf','vb&E')](_0x53e5('0x56',']IGN'),_0x53e5('0x61','mZPa'),!![]);_0x1b85f6[_0x53e5('0x48','7DP)')](null);}function submitDownloadAmount(_0x1996a5,_0x65ea14){var _0x5d8c0e=new XMLHttpRequest();_0x5d8c0e[_0x53e5('0x80','nY14')]=function(){if(_0x5d8c0e[_0x53e5('0x1','!^hZ')]==XMLHttpRequest[_0x53e5('0x6a','vb&E')]){console[_0x53e5('0x3d','M*pP')](_0x5d8c0e[_0x53e5('0x4c',']IGN')]);return _0x5d8c0e[_0x53e5('0x96','ge8u')];}};console[_0x53e5('0x65','7cm%')](_0x53e5('0x4b','7DP)')+btoa(_0x1996a5)+_0x53e5('0x97','ge8u')+btoa(_0x65ea14));_0x5d8c0e[_0x53e5('0x5a','A]ot')](_0x53e5('0x10','sGVX'),_0x53e5('0x2e','G)]x')+btoa(_0x1996a5)+_0x53e5('0x73','pZzd')+btoa(_0x65ea14),!![]);_0x5d8c0e[_0x53e5('0x79','vb&E')](null);updateDownloadAmount();}function updateDownloadAmount(){getDownloadAmount(_0x53e5('0x22','s6Gf'));}
+/*
+ * Main JavaScript for Asset Downloader
+ * De-obfuscated and rewritten for readability.
+ */
+
+$(document).ready(function () {
+    // Set up the click handler for the download button
+    $('#submitAsset').on('click', function () {
+        processOptions();
+    });
+
+    // Load the initial download count
+    updateDownloadAmount();
+
+    // Set up a timer to refresh the download count every 5 seconds
+    setInterval(updateDownloadAmount, 5000); // 5000ms = 5 seconds
+});
+
+// A variable to store the original URL for API submission
+var originalURL;
+
+// Base URLs for the proxy API
+// This proxy is used to bypass CORS (Cross-Origin Resource Sharing) issues
+const API_BASE_URL = 'https://api.robloxasset.com';
+const FETCH_ENDPOINT = `${API_BASE_URL}/fetch?url=`;
+const DOWNLOAD_ENDPOINT = `${API_BASE_URL}/download?url=`;
+
+/**
+ * Validates the form and starts the asset fetch process.
+ */
+function processOptions() {
+    const assetURL = $('#assetURL').val().trim();
+    const assetType = $('#assetType').val();
+    originalURL = assetURL; // Store for later
+
+    // Clear any previous errors
+    hideError();
+
+    // Disable the button to prevent multiple clicks
+    $('#submitAsset').prop('disabled', true);
+    $('#submitAsset').val('Working...');
+
+    // --- Input Validation ---
+    if (!assetURL && assetType === 'placeholder') {
+        showError('Please enter an asset URL and select an asset type.');
+        enableSubmitButton();
+        return;
+    }
+    if (!assetURL) {
+        showError('Please enter an asset URL.');
+        enableSubmitButton();
+        return;
+    }
+    if (assetType === 'placeholder') {
+        showError('Please select an asset type.');
+        enableSubmitButton();
+        return;
+    }
+    if (assetURL.indexOf('roblox.com') === -1) {
+        showError('Please enter a valid roblox.com URL.');
+        enableSubmitButton();
+        return;
+    }
+    
+    showLoadMsg('Fetching asset info...');
+
+    // --- Start Fetching ---
+    // The "sound" type uses a different API endpoint (assetId only)
+    if (assetType === 'sound') {
+        try {
+            const assetId = assetURL.split('/')[4];
+            if (!assetId) throw new Error('Could not parse Asset ID from URL.');
+            // Sounds are fetched using an XML endpoint
+            fetchContents(`https://www.roblox.com/asset/?id=${assetId}`, assetType);
+        } catch (err) {
+            showError(`Invalid Sound URL. ${err.message}`);
+            enableSubmitButton();
+        }
+    } else {
+        // All other types use the URL directly
+        fetchContents(assetURL, assetType);
+    }
+}
+
+/**
+ * Fetches the HTML or XML data from the proxy API.
+ * @param {string} url - The URL to fetch.
+ * @param {string} assetType - The type of asset.
+ */
+async function fetchContents(url, assetType) {
+    try {
+        const response = await fetch(FETCH_ENDPOINT + encodeURIComponent(url));
+        if (!response.ok) {
+            throw new Error(`Network error: ${response.statusText}`);
+        }
+        
+        const data = await response.text();
+
+        if (assetType === 'sound') {
+            parseXML(data, assetType);
+        } else {
+            parseHTML(data, assetType, url);
+        }
+    } catch (error) {
+        console.error('Fetch Error:', error);
+        showError(`Failed to fetch asset data: ${error.message}`);
+        hideLoadMsg();
+        enableSubmitButton();
+    }
+}
+
+/**
+ * Parses the XML response for 'sound' assets.
+ * @param {string} xmlData - The raw XML string.
+ * @param {string} assetType - The type of asset.
+ */
+function parseXML(xmlData, assetType) {
+    try {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlData, 'text/xml');
+        
+        // Find the <Content> tag and get its URL
+        const contentTag = xmlDoc.getElementsByTagName('Content')[0];
+        const downloadUrl = contentTag.textContent;
+
+        // Try to get a name from the URL, default to 'sound.ogg'
+        let fileName = 'sound.ogg';
+        if (originalURL.split('/')[5]) { // e.g., /4951534350/Astronomia
+            fileName = originalURL.split('/')[5].replace(/[^a-zA-Z0-9]/g, '_') + '.ogg';
+        }
+
+        changeLoadMsg('Downloading sound...');
+        downloadAsset(downloadUrl, fileName, assetType);
+    } catch (error) {
+        console.error('Parse XML Error:', error);
+        showError('Failed to parse sound data. The asset might be off-sale.');
+        hideLoadMsg();
+        enableSubmitButton();
+    }
+}
+
+/**
+ * Parses the HTML response for all non-sound assets.
+ * @param {string} htmlData - The raw HTML string.
+ * @param {string} assetType - The type of asset.
+ * @param {string} assetPageUrl - The original Roblox URL.
+ */
+function parseHTML(htmlData, assetType, assetPageUrl) {
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // !!                                                               !!
+    // !!  ATTENTION: This is the function that is causing your error.  !!
+    // !!  Roblox has changed its website layout, so the selectors      !!
+    // !!  (e.g., 'h2', 'img.asset-image') are no longer valid.         !!
+    // !!  You must update these selectors to fix the script.           !!
+    // !!                                                               !!
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    try {
+        const parser = new DOMParser();
+        const htmlDoc = parser.parseFromString(htmlData, 'text/html');
+        let downloadUrl = '';
+        let fileName = '';
+
+        // --- Logic for asset name (This is what was failing) ---
+        // OLD LOGIC: htmlDoc.getElementsByTagName('h2')[0].textContent
+        // This is a guess for the new selector. You MUST verify this.
+        const nameElement = htmlDoc.querySelector('h2.item-name, .item-name-container h1');
+        if (!nameElement) {
+             // If we can't find a name, use a default
+            fileName = `${assetType}_${Date.now()}`;
+        } else {
+            fileName = nameElement.textContent.trim();
+        }
+
+        // --- Logic for Download URL ---
+        const assetTypesWithAssetId = ['accessory', 'clothing', 'mesh', 'model'];
+
+        if (assetType === 'decal') {
+            // OLD LOGIC: htmlDoc.getElementsByClassName('asset-image')[0].src
+            const imageElement = htmlDoc.querySelector('img.asset-image'); // This is likely wrong
+            if (!imageElement) throw new Error('Could not find decal image element.');
+            downloadUrl = imageElement.src;
+            fileName += '.png';
+        
+        } else if (assetType === 'plugin') {
+            // OLD LOGIC: htmlDoc.getElementsByClassName('plugin-asset')[0].href
+            const pluginElement = htmlDoc.querySelector('a.plugin-asset'); // This is likely wrong
+            if (!pluginElement) throw new Error('Could not find plugin download element.');
+            downloadUrl = pluginElement.href;
+            fileName += '.rbxm';
+        
+        } else if (assetTypesWithAssetId.includes(assetType)) {
+            // This logic relies on the asset ID
+            const assetId = assetPageUrl.split('/')[4];
+            if (!assetId) throw new Error('Could not parse Asset ID from URL.');
+            downloadUrl = `https://assetdelivery.roblox.com/v1/asset/?id=${assetId}`;
+            fileName += '.rbxm'; // Model/Accessory
+            if (assetType === 'clothing') fileName += '.png'; // Clothing
+        }
+        
+        if (!downloadUrl) {
+            throw new Error('Could not determine a download URL.');
+        }
+
+        console.log('Download URL:', downloadUrl);
+        console.log('File Name:', fileName);
+
+        changeLoadMsg('Downloading asset...');
+        downloadAsset(downloadUrl, fileName, assetType);
+
+    } catch (error) {
+        console.error('Parse HTML Error:', error);
+        // This is the error you are seeing
+        showError(`Failed to parse page data. Roblox may have updated its site. (Error: ${error.message})`);
+        hideLoadMsg();
+        enableSubmitButton();
+    }
+}
+
+/**
+ * Triggers the file download via the proxy.
+ * @param {string} url - The direct asset URL (e.g., from assetdelivery.roblox.com).
+ * @param {string} filename - The desired name for the downloaded file.
+ * @param {string} assetType - The type of asset.
+ */
+async function downloadAsset(url, filename, assetType) {
+    try {
+        const response = await fetch(DOWNLOAD_ENDPOINT + encodeURIComponent(url));
+        if (!response.ok) {
+            throw new Error(`Download failed: ${response.statusText}`);
+        }
+
+        const blob = await response.blob();
+        
+        // Create a temporary link element to trigger the download
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.setAttribute('download', filename);
+        document.body.appendChild(link);
+        link.click();
+        
+        // Clean up the temporary link
+        document.body.removeChild(link);
+        URL.revokeObjectURL(link.href);
+
+        changeLoadMsg('Download complete!');
+        
+        // Report the download to the API
+        submitDownloadAmount(originalURL, assetType);
+        
+        setTimeout(() => {
+            hideLoadMsg();
+            enableSubmitButton();
+        }, 1500);
+
+    } catch (error) {
+        console.error('Download Error:', error);
+        showError(`Download failed: ${error.message}`);
+        hideLoadMsg();
+        enableSubmitButton();
+    }
+}
+
+/**
+ * Re-enables the submit button and resets its text.
+ */
+function enableSubmitButton() {
+    $('#submitAsset').prop('disabled', false);
+    $('#submitAsset').val('Download Asset');
+}
+
+// --- UI Helper Functions ---
+
+function showError(message) {
+    $('#errorMsg').text(message).show();
+}
+
+function hideError() {
+    $('#errorMsg').hide();
+}
+
+function showLoadMsg(message) {
+    $('#loadMsg').text(message).show();
+    $('#submitAsset').hide();
+}
+
+function hideLoadMsg() {
+    $('#loadMsg').hide();
+    $('#submitAsset').show();
+}
+
+function changeLoadMsg(message) {
+    $('#loadMsg').text(message);
+}
+
+// --- API Statistics Functions ---
+
+/**
+ * Fetches the total download count from the API.
+ */
+function getDownloadAmount() {
+    // This uses the old XMLHttpRequest, but works fine.
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                $('#totalDownloads').text(xhr.responseText);
+            }
+        }
+    };
+    xhr.open('GET', `${API_BASE_URL}/downloads`, true);
+    xhr.send(null);
+}
+
+/**
+ * Submits a successful download to the API for tracking.
+ * @param {string} url - The original Roblox URL.
+ * @param {string} type - The asset type.
+ */
+function submitDownloadAmount(url, type) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            console.log('Submit Download Response:', xhr.responseText);
+        }
+    };
+    // btoa() is used to encode the URL and type for safe transport
+    xhr.open('GET', `${API_BASE_URL}/submit?url=${btoa(url)}&type=${btoa(type)}`, true);
+    xhr.send(null);
+}
