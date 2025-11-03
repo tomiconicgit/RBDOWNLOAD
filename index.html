@@ -4,8 +4,8 @@
 <head>
     <title>Asset Downloader</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="scripts/css/style.css">
-    <link rel="stylesheet" type="text/css" href="scripts/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="manifest" href="manifest.json">
@@ -13,7 +13,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Asset Downloader">
-    <link rel="apple-touch-icon" href="images/icon-192.png"> <meta name="description"
+    <link rel="apple-touch-icon" href="icon-192.png"> <meta name="description"
         content="Download shirts, models, sounds, and other assets.">
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:locale" content="en_US">
@@ -23,8 +23,8 @@
         content="Download shirts, models, sounds, and other assets.">
     <meta property="og:site_name" content="Asset Downloader">
 
-    <script src="scripts/js/jquery-3.2.1.min.js"></script>
-    <script src="scripts/js/main.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -64,7 +64,7 @@
         // Register Service Worker
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
+                navigator.serviceWorker.register('service-worker.js') // Updated path
                     .then(registration => {
                         console.log('ServiceWorker registration successful with scope: ', registration.scope);
                     })
