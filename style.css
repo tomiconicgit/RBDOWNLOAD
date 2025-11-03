@@ -1,101 +1,165 @@
-body {
-    color: #ffffff;
-    background-image: url(../../images/background.png);
-    background-repeat: repeat-y;
-    background-size: cover;
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+body {
+    /* Add padding for iPhone safe areas (notch/home bar) */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+#mainWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+h1.mainHeader {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h1.mainHeader span {
+    font-weight: 600; /* Kept from original, but base H1 is now bold */
+}
+
+/* Main Content Area */
+main#formWrapper {
+    flex: 1; /* Makes the main area grow to fill available space */
+    padding: 25px;
+    overflow-y: auto; /* Allows scrolling if content is too long */
+    -webkit-overflow-scrolling: touch;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between form elements */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Modern Form Elements */
+input[type=text], select {
+    width: 100%;
+    padding: 16px;
+    display: inline-block;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 16px;
+    -webkit-appearance: none; /* Removes default iOS styling */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    /* Add custom dropdown arrow */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23999999%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 16px top 50%;
+    background-size: .65em auto;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #007AFF; /* Modern iOS blue */
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    -webkit-appearance: none;
+    transition: background-color 0.2s ease;
+}
+  
+input[type=submit]:hover {
+    background-color: #0056b3;
+}
+
+input[type=submit]:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Status/Helper Text */
+#exampleText {
+    filter: opacity(0.7);
     font-size: 14px;
 }
 
 .example {
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     overflow-wrap: break-word;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
-
-h1.mainHeader {
-    font-size: 40px;
-}
-
-h1.mainHeader span {
-    font-weight: 600;
+    opacity: 0.9;
+    word-break: break-all;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 20px;
-}
-
-#mainWrapper {
-    width: 400px;
-    height: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -200px;
-    margin-top: -250px;
-    text-align: center;
+    font-size: 18px;
 }
 
 #errorMsg {
-    color: #f74b52;
+    color: #FF453A; /* Modern iOS red */
     margin-top: 5px;
     display: none;
+    font-weight: 500;
+    background-color: rgba(255, 69, 58, 0.1);
+    padding: 10px;
+    border-radius: 8px;
 }
 
 #loadMsg {
     display: none;
+    color: #32D74B; /* Modern iOS green */
 }
 
-#exampleText {
-    filter: opacity(0.75);
+/* Footer */
+footer {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 20px; /* Default padding */
+    padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* Add safe area padding */
+    background-color: #1e1e1e;
+    border-top: 1px solid #333;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 20px 28px;
+footer p {
     font-weight: 300;
     filter: opacity(0.75);
+    font-size: 14px;
 }
 
-.footer span {
-    font-weight: 400;
+footer span {
+    font-weight: 500;
 }
-
-/*[Form]*/
-input[type=text], select {
-    width: 350px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  input[type=submit] {
-    width: 50%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
