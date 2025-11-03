@@ -35,19 +35,12 @@
         
         <main id="formWrapper">
             <div id="form">
-                <input autocomplete="off" type="text" id="assetURL" name="url" placeholder="Enter Asset URL...">
-                <select id="assetType" name="type">
-                    <option value="placeholder">Select Asset Type</option>
-                    <option value="accessory">Accessory</option>
-                    <option value="clothing">Clothing</option>
-                    <option value="decal">Decal</option>
-                    <option value="sound">Sound</option>
-                    <option value="model">Model</option>
-                    <option value="mesh">Mesh</option>
-                    <option value="plugin">Plugin</option>
-                </select>
-                <p id="exampleText">Example: <span
-                        class="example">https://www.roblox.com/library/...</span></p>
+                <p id="baseUrlText">
+                    https://assetdelivery.roblox.com/v1/asset/?id=
+                </p>
+
+                <input autocomplete="off" type="text" id="assetID" name="id" placeholder="Enter Asset ID...">
+                
                 <input id="submitAsset" type="submit" value="Download Asset">
                 
                 <h2 id="loadMsg">Downloading...</h2>
@@ -64,16 +57,4 @@
         // Register Service Worker
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js') // Updated path
-                    .then(registration => {
-                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                    })
-                    .catch(error => {
-                        console.log('ServiceWorker registration failed: ', error);
-                    });
-            });
-        }
-    </script>
-</body>
-
-</html>
+                navigator.serviceWorker.
