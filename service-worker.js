@@ -1,12 +1,14 @@
 const CACHE_NAME = 'asset-downloader-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/scripts/css/style.css',
-  '/scripts/css/fonts.css',
-  '/scripts/js/main.js',
-  '/scripts/js/jquery-3.2.1.min.js'
-  // Add any font files loaded by fonts.css if they are local
+  'index.html',
+  'style.css',
+  'fonts.css',
+  'main.js',
+  'jquery-3.2.1.min.js'
+  // Add your icon files if you want them cached
+  // 'icon-192.png',
+  // 'icon-512.png'
 ];
 
 // Install event:
