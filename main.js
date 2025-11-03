@@ -1,6 +1,7 @@
 /*
  * Main JavaScript for Asset Downloader
- * De-obfuscated and rewritten for readability.
+ * Rewritten to be reliable and maintainable.
+ * This version fixes the scraping error by using the Asset ID for all types.
  */
 
 $(document).ready(function () {
@@ -56,8 +57,8 @@ function processOptions() {
         enableSubmitButton();
         return;
     }
-    if (assetURL.indexOf('roblox.com') === -1) {
-        showError('Please enter a valid roblox.com URL.');
+    if (assetURL.indexOf('roblox.com') === -1 && assetURL.indexOf('create.roblox.com') === -1) {
+        showError('Please enter a valid roblox.com or create.roblox.com URL.');
         enableSubmitButton();
         return;
     }
@@ -68,7 +69,7 @@ function processOptions() {
     // The "sound" type uses a different API endpoint (assetId only)
     if (assetType === 'sound') {
         try {
-            const assetId = assetURL.split('/')[4];
+            const assetId = getAssetIdFromUrl(assetURL);
             if (!assetId) throw new Error('Could not parse Asset ID from URL.');
             // Sounds are fetched using an XML endpoint
             fetchContents(`https://www.roblox.com/asset/?id=${assetId}`, assetType);
@@ -77,9 +78,32 @@ function processOptions() {
             enableSubmitButton();
         }
     } else {
-        // All other types use the URL directly
+        // All other types just need the asset ID.
+        // We fetch the page *only* to try and get the asset's name for the filename.
         fetchContents(assetURL, assetType);
     }
+}
+
+/**
+ * Gets the asset ID from various Roblox URL formats.
+ * @param {string} url - The Roblox URL.
+ * @returns {string|null} The asset ID or null.
+ */
+function getAssetIdFromUrl(url) {
+    // Matches .../library/12345/... or .../asset/12345/...
+    const match = url.match(/(?:\/library\/|\/asset\/)([0-9]+)/);
+    if (match && match[1]) {
+        return match[1];
+    }
+    
+    // Fallback for simple /12345/ links
+    const parts = url.split('/');
+    for(let i = 0; i < parts.length; i++) {
+        if (/^[0-9]{8,}$/.test(parts[i])) { // A simple check for a long number
+            return parts[i];
+        }
+    }
+    return null;
 }
 
 /**
@@ -99,7 +123,9 @@ async function fetchContents(url, assetType) {
         if (assetType === 'sound') {
             parseXML(data, assetType);
         } else {
-            parseHTML(data, assetType, url);
+            // All other types use the Asset ID.
+            // We pass the HTML data to *try* and get a name.
+            parseAndDownload(data, assetType, url);
         }
     } catch (error) {
         console.error('Fetch Error:', error);
@@ -125,8 +151,9 @@ function parseXML(xmlData, assetType) {
 
         // Try to get a name from the URL, default to 'sound.ogg'
         let fileName = 'sound.ogg';
-        if (originalURL.split('/')[5]) { // e.g., /4951534350/Astronomia
-            fileName = originalURL.split('/')[5].replace(/[^a-zA-Z0-9]/g, '_') + '.ogg';
+        const namePart = originalURL.split('/')[5];
+        if (namePart) {
+            fileName = namePart.replace(/[^a-zA-Z0-9]/g, '_') + '.ogg';
         }
 
         changeLoadMsg('Downloading sound...');
@@ -140,68 +167,51 @@ function parseXML(xmlData, assetType) {
 }
 
 /**
- * Parses the HTML response for all non-sound assets.
- * @param {string} htmlData - The raw HTML string.
+ * Main function to download Models, Decals, Plugins, Clothing, etc.
+ * This function no longer relies on complex HTML scraping for download links.
+ * @param {string} htmlData - The raw HTML string (used only to find the asset name).
  * @param {string} assetType - The type of asset.
  * @param {string} assetPageUrl - The original Roblox URL.
  */
-function parseHTML(htmlData, assetType, assetPageUrl) {
-    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    // !!                                                               !!
-    // !!  ATTENTION: This is the function that is causing your error.  !!
-    // !!  Roblox has changed its website layout, so the selectors      !!
-    // !!  (e.g., 'h2', 'img.asset-image') are no longer valid.         !!
-    // !!  You must update these selectors to fix the script.           !!
-    // !!                                                               !!
-    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+function parseAndDownload(htmlData, assetType, assetPageUrl) {
     try {
-        const parser = new DOMParser();
-        const htmlDoc = parser.parseFromString(htmlData, 'text/html');
-        let downloadUrl = '';
-        let fileName = '';
-
-        // --- Logic for asset name (This is what was failing) ---
-        // OLD LOGIC: htmlDoc.getElementsByTagName('h2')[0].textContent
-        // This is a guess for the new selector. You MUST verify this.
-        const nameElement = htmlDoc.querySelector('h2.item-name, .item-name-container h1');
-        if (!nameElement) {
-             // If we can't find a name, use a default
-            fileName = `${assetType}_${Date.now()}`;
-        } else {
-            fileName = nameElement.textContent.trim();
+        // --- 1. Get the Asset ID (The reliable part) ---
+        const assetId = getAssetIdFromUrl(assetPageUrl);
+        if (!assetId) {
+            throw new Error('Could not parse Asset ID from the URL.');
         }
 
-        // --- Logic for Download URL ---
-        const assetTypesWithAssetId = ['accessory', 'clothing', 'mesh', 'model'];
-
-        if (assetType === 'decal') {
-            // OLD LOGIC: htmlDoc.getElementsByClassName('asset-image')[0].src
-            const imageElement = htmlDoc.querySelector('img.asset-image'); // This is likely wrong
-            if (!imageElement) throw new Error('Could not find decal image element.');
-            downloadUrl = imageElement.src;
-            fileName += '.png';
-        
-        } else if (assetType === 'plugin') {
-            // OLD LOGIC: htmlDoc.getElementsByClassName('plugin-asset')[0].href
-            const pluginElement = htmlDoc.querySelector('a.plugin-asset'); // This is likely wrong
-            if (!pluginElement) throw new Error('Could not find plugin download element.');
-            downloadUrl = pluginElement.href;
-            fileName += '.rbxm';
-        
-        } else if (assetTypesWithAssetId.includes(assetType)) {
-            // This logic relies on the asset ID
-            const assetId = assetPageUrl.split('/')[4];
-            if (!assetId) throw new Error('Could not parse Asset ID from URL.');
-            downloadUrl = `https://assetdelivery.roblox.com/v1/asset/?id=${assetId}`;
-            fileName += '.rbxm'; // Model/Accessory
-            if (assetType === 'clothing') fileName += '.png'; // Clothing
-        }
-        
-        if (!downloadUrl) {
-            throw new Error('Could not determine a download URL.');
+        // --- 2. Get the Filename (The fragile part) ---
+        let fileName = `${assetId}_${assetType}`; // Default filename
+        try {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(htmlData, 'text/html');
+            // This is the new selector. Roblox pages now use an H1 for the title.
+            // We also check for the old `h2` just in case.
+            const nameElement = htmlDoc.querySelector('h1.item-title, h1, h2.item-name, h2');
+            if (nameElement) {
+                fileName = nameElement.textContent.trim().replace(/[^a-zA-Z0-9 ]/g, '');
+            }
+        } catch (e) {
+            console.warn('Could not parse asset name, using default.');
         }
 
+        // --- 3. Set File Extension ---
+        const fileExtensions = {
+            'model': '.rbxm',
+            'plugin': '.rbxm',
+            'mesh': '.rbxm',
+            'accessory': '.rbxm',
+            'clothing': '.png',
+            'decal': '.png'
+        };
+        fileName += fileExtensions[assetType] || '.asset';
+
+        // --- 4. Get the Download URL (The reliable part) ---
+        // All these asset types can be downloaded from the same API endpoint.
+        const downloadUrl = `https://assetdelivery.roblox.com/v1/asset/?id=${assetId}`;
+        
+        console.log('Asset ID:', assetId);
         console.log('Download URL:', downloadUrl);
         console.log('File Name:', fileName);
 
@@ -209,9 +219,8 @@ function parseHTML(htmlData, assetType, assetPageUrl) {
         downloadAsset(downloadUrl, fileName, assetType);
 
     } catch (error) {
-        console.error('Parse HTML Error:', error);
-        // This is the error you are seeing
-        showError(`Failed to parse page data. Roblox may have updated its site. (Error: ${error.message})`);
+        console.error('Parse Error:', error);
+        showError(`Failed to process the asset. (Error: ${error.message})`);
         hideLoadMsg();
         enableSubmitButton();
     }
@@ -299,7 +308,6 @@ function changeLoadMsg(message) {
  * Fetches the total download count from the API.
  */
 function getDownloadAmount() {
-    // This uses the old XMLHttpRequest, but works fine.
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState == XMLHttpRequest.DONE) {
@@ -324,7 +332,6 @@ function submitDownloadAmount(url, type) {
             console.log('Submit Download Response:', xhr.responseText);
         }
     };
-    // btoa() is used to encode the URL and type for safe transport
     xhr.open('GET', `${API_BASE_URL}/submit?url=${btoa(url)}&type=${btoa(type)}`, true);
     xhr.send(null);
 }
